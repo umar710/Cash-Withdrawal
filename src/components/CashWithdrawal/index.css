@@ -1,0 +1,67 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+
+.card {
+  background-color: #150b3e;
+  height: 100vh;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.profile {
+  background-color: #c7d2fe;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.profile-name-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.name {
+  color: #d4d2db;
+  font-weight: 200px;
+  font-family: Roboto;
+  margin: 10px;
+}
+
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.title-balance {
+  color: #585076;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.rupees {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.in-rpees {
+  color: #585076;
+  font-family: Roboto;
+  font-weight: 500;
+}
